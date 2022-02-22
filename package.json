@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reto1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FcoJaviGomez/Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FcoJaviGomez/Node/issues"
+  },
+  "homepage": "https://github.com/FcoJaviGomez/Node#readme",
+  "dependencies": {
+    "file": "^0.2.2",
+    "linebyline": "^1.3.0",
+    "system": "^2.0.1"
+  }
+}
