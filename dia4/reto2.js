@@ -27,6 +27,9 @@ app.get('/profesional', (request, response) => {
         respuesta = { error: false, message: "Hay profesionales  y no importa la posicion", res: profesional }
 
     }
+    else if (profesional.length <= i) {
+        respuesta = { error: false, message: "No hay profesionales en la posicion", }
+    }
     else if (profesional.length > 0 && i != null) {
         respuesta = { error: false, message: "Hay profesional y si importa la posicion", res: profesional[i] }
     }
@@ -78,7 +81,11 @@ app.put('/profesional', (request, response) => {
     let i = request.body.i
 
 
-    if (profesional.length == 0) {
+
+    if (profesional.length <= i) {
+        respuesta = { error: false, message: "No existe el indice en la array" }
+    }
+    else if (profesional.length == 0) {
         respuesta = { error: false, message: "No existe un profesional, usa POST para crearlo" }
     }
     else {
