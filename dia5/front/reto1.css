@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Istok Web', sans-serif;
+    background-color: #1BC28D;
+}
+
+.profesionales{
+    font-size: 40px;
+}
+
+.header{
+
+    height: 500px;
+    width: 800px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__div{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    width: 800px;
+    
+}
+
+.input{
+    padding-left: 5px;
+}
+
+.botton{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.botton__div{
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.botton__div:hover{
+    background-color: black;
+    color: white;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.default{
+    border: 2px solid black;
+    margin-top: 30px;
+    width: 1000px;
+}
+th{
+    background-color: gray;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+td{
+    background-color: rgba(6, 6, 228, 0.356);
+    text-align: center;
+}
